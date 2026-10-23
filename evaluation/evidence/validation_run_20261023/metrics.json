@@ -1,0 +1,361 @@
+{
+  "run_started_utc": "2026-10-23T13:36:25.612176+00:00",
+  "tickets_processed": 80,
+  "tickets_auto_responded": 32,
+  "tickets_escalated": 48,
+  "guardrail_blocked": 0,
+  "automation_rate_percent": 40.0,
+  "escalation_rate_percent": 60.0,
+  "first_contact_resolution_proxy_percent": 40.0,
+  "labelled_first_contact_resolution_percent": 46.25,
+  "historical_resolution_time_minutes": {
+    "mean": 441.48,
+    "median": 218.0,
+    "sample_size": 80
+  },
+  "historical_csat_average": 2.6,
+  "historical_csat_sample_size": 80,
+  "labelled_expected_escalation_rate_percent": 40.0,
+  "response_latency_ms": {
+    "mean": 11.19,
+    "median": 10.72,
+    "p95": 13.25
+  },
+  "intent_classification": {
+    "accuracy": 1.0,
+    "per_class": {
+      "account_access": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "api_key_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "api_usage_question": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "authentication_failure": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "billing_query": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 10
+      },
+      "compliance_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "configuration_help": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "data_export": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "data_residency": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "database_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "deployment_failure": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "feature_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "integration_help": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "onboarding": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "performance_degradation": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      },
+      "quota_or_overage": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      },
+      "rate_limit": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "rollback_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "security_incident": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 4
+      },
+      "sso_configuration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "unclear_request": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "webhook_issue": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "macro_f1": 1.0
+  },
+  "answerability_classification": {
+    "accuracy": 0.7625,
+    "per_class": {
+      "False": {
+        "precision": 0.9,
+        "recall": 0.3333,
+        "f1": 0.4865,
+        "support": 27
+      },
+      "True": {
+        "precision": 0.7429,
+        "recall": 0.9811,
+        "f1": 0.8455,
+        "support": 53
+      }
+    },
+    "macro_f1": 0.666
+  },
+  "confidence_calibration": {
+    "intent": {
+      "expected_calibration_error": 0.1541,
+      "bins": [
+        {
+          "lower_bound": 0.6,
+          "upper_bound": 0.8,
+          "count": 5,
+          "mean_confidence": 0.7103,
+          "accuracy": 1.0
+        },
+        {
+          "lower_bound": 0.8,
+          "upper_bound": 1.0,
+          "count": 75,
+          "mean_confidence": 0.8549,
+          "accuracy": 1.0
+        }
+      ],
+      "sample_size": 80
+    },
+    "route": {
+      "expected_calibration_error": 0.056,
+      "bins": [
+        {
+          "lower_bound": 0.4,
+          "upper_bound": 0.6,
+          "count": 7,
+          "mean_confidence": 0.5723,
+          "accuracy": 0.7143
+        },
+        {
+          "lower_bound": 0.6,
+          "upper_bound": 0.8,
+          "count": 39,
+          "mean_confidence": 0.7269,
+          "accuracy": 0.7436
+        },
+        {
+          "lower_bound": 0.8,
+          "upper_bound": 1.0,
+          "count": 34,
+          "mean_confidence": 0.9363,
+          "accuracy": 0.8529
+        }
+      ],
+      "sample_size": 80
+    },
+    "answerability": {
+      "expected_calibration_error": 0.0551,
+      "bins": [
+        {
+          "lower_bound": 0.2,
+          "upper_bound": 0.4,
+          "count": 3,
+          "mean_confidence": 0.3599,
+          "accuracy": 0.0
+        },
+        {
+          "lower_bound": 0.4,
+          "upper_bound": 0.6,
+          "count": 10,
+          "mean_confidence": 0.4887,
+          "accuracy": 0.3
+        },
+        {
+          "lower_bound": 0.6,
+          "upper_bound": 0.8,
+          "count": 52,
+          "mean_confidence": 0.714,
+          "accuracy": 0.7308
+        },
+        {
+          "lower_bound": 0.8,
+          "upper_bound": 1.0,
+          "count": 15,
+          "mean_confidence": 0.838,
+          "accuracy": 0.8
+        }
+      ],
+      "sample_size": 80
+    }
+  },
+  "routing_classification": {
+    "accuracy": 0.7875,
+    "per_class": {
+      "auto_respond": {
+        "precision": 0.7719,
+        "recall": 0.9167,
+        "f1": 0.8381,
+        "support": 48
+      },
+      "escalate": {
+        "precision": 0.8261,
+        "recall": 0.5938,
+        "f1": 0.6909,
+        "support": 32
+      }
+    },
+    "macro_f1": 0.7645
+  },
+  "final_decision_classification": {
+    "accuracy": 0.675,
+    "per_class": {
+      "auto_respond": {
+        "precision": 0.8438,
+        "recall": 0.5625,
+        "f1": 0.675,
+        "support": 48
+      },
+      "escalate": {
+        "precision": 0.5625,
+        "recall": 0.8438,
+        "f1": 0.675,
+        "support": 32
+      }
+    },
+    "macro_f1": 0.675
+  },
+  "retrieval_hit_rate_percent": 94.34,
+  "retrieval_evaluated_tickets": 53,
+  "channel_breakdown": {
+    "forum": {
+      "total": 11,
+      "auto_respond": 4,
+      "escalate": 7,
+      "guardrail_blocked": 0
+    },
+    "chat": {
+      "total": 22,
+      "auto_respond": 10,
+      "escalate": 12,
+      "guardrail_blocked": 0
+    },
+    "docs_comment": {
+      "total": 16,
+      "auto_respond": 6,
+      "escalate": 10,
+      "guardrail_blocked": 0
+    },
+    "email": {
+      "total": 31,
+      "auto_respond": 12,
+      "escalate": 19,
+      "guardrail_blocked": 0
+    }
+  },
+  "customer_region_automation_breakdown": {
+    "asia_pacific": {
+      "total": 21,
+      "auto_respond": 8,
+      "automation_rate_percent": 38.1
+    },
+    "north_america": {
+      "total": 27,
+      "auto_respond": 14,
+      "automation_rate_percent": 51.85
+    },
+    "europe": {
+      "total": 25,
+      "auto_respond": 8,
+      "automation_rate_percent": 32.0
+    },
+    "latin_america": {
+      "total": 7,
+      "auto_respond": 2,
+      "automation_rate_percent": 28.57
+    }
+  },
+  "decisions_logged": 80,
+  "decision_log_failures": 0,
+  "private_data_detections": 0,
+  "notes": [
+    "Auto-response is a proxy for potential first-contact resolution, not observed resolution.",
+    "Historical resolution-time and CSAT values describe the supplied labelled records, not this pipeline run.",
+    "Latency includes local processing and any configured provider call; this run's figures are environment-specific.",
+    "Metrics using expected labels are computed only when labels are present in the input."
+  ],
+  "input_file": "validation_tickets.json",
+  "output_file": "validation_results.json",
+  "system_version": "1.0.0"
+}

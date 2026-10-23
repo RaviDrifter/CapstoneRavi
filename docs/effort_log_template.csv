@@ -1,0 +1,7 @@
+date,stage,task,estimated_hours,actual_hours,notes,artifact_or_commit
+,Discovery,Review instructions and datasets,,,,
+,Requirements,Write/update PRD and traceability,,,,
+,Build,Implement pipeline components,,,,
+,Evaluation,Run validation and analyze errors,,,,
+,Governance,Complete risk/fairness review,,,,
+,Submission,Report/video/package,,,,

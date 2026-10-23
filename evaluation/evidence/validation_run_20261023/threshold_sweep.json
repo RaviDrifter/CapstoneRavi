@@ -1,0 +1,226 @@
+{
+  "validation_file": "validation_tickets.json",
+  "validation_ticket_count": 80,
+  "threshold_sweep": [
+    {
+      "route_threshold": 0.5,
+      "answerability_threshold": 0.5,
+      "auto_responded": 39,
+      "escalated": 41,
+      "automation_rate_percent": 48.75,
+      "auto_precision": 0.8205,
+      "auto_recall": 0.6667,
+      "accuracy": 0.7125,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.5,
+      "answerability_threshold": 0.55,
+      "auto_responded": 39,
+      "escalated": 41,
+      "automation_rate_percent": 48.75,
+      "auto_precision": 0.8205,
+      "auto_recall": 0.6667,
+      "accuracy": 0.7125,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.5,
+      "answerability_threshold": 0.6,
+      "auto_responded": 39,
+      "escalated": 41,
+      "automation_rate_percent": 48.75,
+      "auto_precision": 0.8205,
+      "auto_recall": 0.6667,
+      "accuracy": 0.7125,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.5,
+      "answerability_threshold": 0.65,
+      "auto_responded": 32,
+      "escalated": 48,
+      "automation_rate_percent": 40.0,
+      "auto_precision": 0.8125,
+      "auto_recall": 0.5417,
+      "accuracy": 0.65,
+      "false_auto_responses": 6
+    },
+    {
+      "route_threshold": 0.55,
+      "answerability_threshold": 0.5,
+      "auto_responded": 37,
+      "escalated": 43,
+      "automation_rate_percent": 46.25,
+      "auto_precision": 0.8108,
+      "auto_recall": 0.625,
+      "accuracy": 0.6875,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.55,
+      "answerability_threshold": 0.55,
+      "auto_responded": 37,
+      "escalated": 43,
+      "automation_rate_percent": 46.25,
+      "auto_precision": 0.8108,
+      "auto_recall": 0.625,
+      "accuracy": 0.6875,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.55,
+      "answerability_threshold": 0.6,
+      "auto_responded": 37,
+      "escalated": 43,
+      "automation_rate_percent": 46.25,
+      "auto_precision": 0.8108,
+      "auto_recall": 0.625,
+      "accuracy": 0.6875,
+      "false_auto_responses": 7
+    },
+    {
+      "route_threshold": 0.55,
+      "answerability_threshold": 0.65,
+      "auto_responded": 32,
+      "escalated": 48,
+      "automation_rate_percent": 40.0,
+      "auto_precision": 0.8125,
+      "auto_recall": 0.5417,
+      "accuracy": 0.65,
+      "false_auto_responses": 6
+    },
+    {
+      "route_threshold": 0.6,
+      "answerability_threshold": 0.5,
+      "auto_responded": 32,
+      "escalated": 48,
+      "automation_rate_percent": 40.0,
+      "auto_precision": 0.8438,
+      "auto_recall": 0.5625,
+      "accuracy": 0.675,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.6,
+      "answerability_threshold": 0.55,
+      "auto_responded": 32,
+      "escalated": 48,
+      "automation_rate_percent": 40.0,
+      "auto_precision": 0.8438,
+      "auto_recall": 0.5625,
+      "accuracy": 0.675,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.6,
+      "answerability_threshold": 0.6,
+      "auto_responded": 32,
+      "escalated": 48,
+      "automation_rate_percent": 40.0,
+      "auto_precision": 0.8438,
+      "auto_recall": 0.5625,
+      "accuracy": 0.675,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.6,
+      "answerability_threshold": 0.65,
+      "auto_responded": 31,
+      "escalated": 49,
+      "automation_rate_percent": 38.75,
+      "auto_precision": 0.8387,
+      "auto_recall": 0.5417,
+      "accuracy": 0.6625,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.65,
+      "answerability_threshold": 0.5,
+      "auto_responded": 28,
+      "escalated": 52,
+      "automation_rate_percent": 35.0,
+      "auto_precision": 0.8214,
+      "auto_recall": 0.4792,
+      "accuracy": 0.625,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.65,
+      "answerability_threshold": 0.55,
+      "auto_responded": 28,
+      "escalated": 52,
+      "automation_rate_percent": 35.0,
+      "auto_precision": 0.8214,
+      "auto_recall": 0.4792,
+      "accuracy": 0.625,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.65,
+      "answerability_threshold": 0.6,
+      "auto_responded": 28,
+      "escalated": 52,
+      "automation_rate_percent": 35.0,
+      "auto_precision": 0.8214,
+      "auto_recall": 0.4792,
+      "accuracy": 0.625,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.65,
+      "answerability_threshold": 0.65,
+      "auto_responded": 28,
+      "escalated": 52,
+      "automation_rate_percent": 35.0,
+      "auto_precision": 0.8214,
+      "auto_recall": 0.4792,
+      "accuracy": 0.625,
+      "false_auto_responses": 5
+    },
+    {
+      "route_threshold": 0.7,
+      "answerability_threshold": 0.5,
+      "auto_responded": 26,
+      "escalated": 54,
+      "automation_rate_percent": 32.5,
+      "auto_precision": 0.8462,
+      "auto_recall": 0.4583,
+      "accuracy": 0.625,
+      "false_auto_responses": 4
+    },
+    {
+      "route_threshold": 0.7,
+      "answerability_threshold": 0.55,
+      "auto_responded": 26,
+      "escalated": 54,
+      "automation_rate_percent": 32.5,
+      "auto_precision": 0.8462,
+      "auto_recall": 0.4583,
+      "accuracy": 0.625,
+      "false_auto_responses": 4
+    },
+    {
+      "route_threshold": 0.7,
+      "answerability_threshold": 0.6,
+      "auto_responded": 26,
+      "escalated": 54,
+      "automation_rate_percent": 32.5,
+      "auto_precision": 0.8462,
+      "auto_recall": 0.4583,
+      "accuracy": 0.625,
+      "false_auto_responses": 4
+    },
+    {
+      "route_threshold": 0.7,
+      "answerability_threshold": 0.65,
+      "auto_responded": 26,
+      "escalated": 54,
+      "automation_rate_percent": 32.5,
+      "auto_precision": 0.8462,
+      "auto_recall": 0.4583,
+      "accuracy": 0.625,
+      "false_auto_responses": 4
+    }
+  ]
+}

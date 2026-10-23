@@ -1,0 +1,17 @@
+[project]
+name = "cloudserve-ai-support"
+version = "1.0.0"
+description = "RAG-based customer support triage, safe response generation, and evaluation pipeline"
+requires-python = ">=3.10,<3.13"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --cov=src --cov-report=term-missing --cov-fail-under=80"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.coverage.run]
+omit = ["tests/*", "evaluation/*", "scripts/*"]
+
+[tool.black]
+line-length = 100

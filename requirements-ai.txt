@@ -1,0 +1,7 @@
+# Optional AI/orchestration/vector-store integrations. The offline harness works without these.
+langchain==0.3.19
+langchain-community==0.3.18
+langchain-openai==0.3.7
+langgraph==0.2.76
+chromadb==0.6.3
+sentence-transformers==3.4.1
