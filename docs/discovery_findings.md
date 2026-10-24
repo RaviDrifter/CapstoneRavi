@@ -41,9 +41,11 @@ The supplied development labels contain 311 expected auto-responses (62.2%), 189
 
 ## 5. First validation findings
 
-The first full offline validation run processed all 80 tickets and logged all 80 decisions. With routing confidence and answerability thresholds at 0.60, 32 tickets were answered automatically (40.0%) and 48 were escalated (60.0%). Automated-route precision was 84.38%, recall 56.25%, and final-decision accuracy 67.5%. The route classifier accuracy before final policy gates was 78.75%, and the answerability classifier accuracy was 76.25%. Retrieval hit rate was 94.34% across 53 tickets with expected document IDs.
+The first full offline validation run processed all 80 tickets and logged all 80 decisions with zero decision-log failures. With the revised retrieval-derived confidence threshold at 0.10 and answerability threshold at 0.40, 35 tickets were answered automatically (43.75%) and 45 were escalated (56.25%). Automated-route precision was 80.00%, recall 58.33%, and final-decision accuracy 66.25%. The route classifier accuracy before final policy gates was 78.75%, and the answerability classifier accuracy was 76.25%. Retrieval hit rate was 94.34% across 53 tickets with expected document IDs.
 
-The intent classifier's measured accuracy was 100% on this small supplied validation sample. Because the data appears strongly template/lexical structured, this score should be treated cautiously and not generalized to real-world support traffic. The answerability model scored 76.25%, exposing a remaining source of avoidable escalation and false automation. See `threshold_analysis.md` for the operating-point trade-off.
+Zero guardrail blocks and zero private data detections were recorded. All 80 decisions were successfully written to the SQLite decision log.
+
+The intent classifier's measured accuracy was 100% on this small supplied validation sample. Because the data appears strongly template/lexical structured, this score should be treated cautiously and not generalized to real-world support traffic. The answerability model scored 76.25%, exposing a remaining source of avoidable escalation and false automation. See `threshold_analysis.md` for the operating-point trade-off and the regional automation breakdown.
 
 ## 6. Open questions and assumptions
 
